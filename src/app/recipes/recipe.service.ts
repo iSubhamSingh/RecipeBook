@@ -13,8 +13,8 @@ export class RecipeService{
     constructor(private slService: ShoppingListService){}    
 
     private recipes: Recipe[] = [
-        new Recipe('Chiken Biryani','This is simply Biryani','https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg',[new Ingredient('Chicken',1),new Ingredient('Rice',20),]),
-        new Recipe('Nihari','A simple Mutton Dish','https://i.ndtvimg.com/i/2017-06/nihari_650x400_81498470650.jpg',[new Ingredient('Mutton', 1), new Ingredient('Tomatoes',10),])
+        new Recipe('Chiken Biryani','Authentic Chicken Biryani','https://upload.wikimedia.org/wikipedia/commons/5/5a/%22Hyderabadi_Dum_Biryani%22.jpg',[new Ingredient('Chicken',1),new Ingredient('Rice',1),]),
+        new Recipe('Pizza','Pepperoni cheese pizza','https://imgs.search.brave.com/w0YFT8UMM8AMdM8B-xaG9qnOP7hxuS9_0eBQEBOvSWE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50Lmluc3RydWN0/YWJsZXMuY29tL0ZZ/UC9EU1VaL0tLR1Y5/VkZaL0ZZUERTVVpL/S0dWOVZGWi5qcGc_/YXV0bz13ZWJwJmZp/dD1ib3VuZHMmZnJh/bWU9MSZoZWlnaHQ9/MTAyNCZ3aWR0aD0x/MDI0YXV0bz13ZWJw/JmZyYW1lPTEmaGVp/Z2h0PTMwMA',[new Ingredient('Mutton', 1), new Ingredient('Tomatoes',10),])
     ];
 
     getRecipes(){
